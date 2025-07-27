@@ -1,0 +1,92 @@
+\documentclass[a4paper]{standalone} 
+
+
+\usepackage{tikz}
+
+
+\definecolor{background}{HTML}{808080}
+\definecolor{highlight}{HTML}{FFC6CB}
+\definecolor{text}{HTML}{FFFFFF} 
+
+
+\begin{document}
+\begin{tikzpicture}
+
+
+\fill[background] rectangle (21,35.7); 
+
+
+ّ\node[align=center, text=highlight, font=\bfseries\sffamily\Huge] at (10.5,34) {Ethical Aspects in Artificial Intelligence
+};
+
+
+
+\draw[highlight, thick, rounded corners] (2,26) rectangle (9.5,27);
+\node[anchor=west, text=highlight, font=\bfseries\sffamily\Large] at (2.5,26.5) {Privacy and Data Security};
+\node[anchor=west, text=text, font=\sffamily\normalsize, text width=8cm, align=left] at (1.5,24) {
+
+     AI often requires large amounts of personal data, which raises ethical concerns. The primary challenges include the potential misuse, leakage, or unauthorized access to sensitive data,
+    leading to serious privacy violations.
+};
+
+
+
+
+\draw[highlight, thick, rounded corners] (11,23.5) rectangle (18.5,24.5);
+\node[anchor=west, text=highlight, font=\bfseries\sffamily\Large] at (11.5,24) {Bias and discrimination
+};
+\node[anchor=west, text=text, font=\sffamily\normalsize, text width=8cm, align=left] at (11.5,21) {
+
+     AI algorithms can make biased decisions by inheriting biases present in the data they are trained on, leading to unfair and discriminatory outcomes. Ethical AI development requires that algorithms be designed to ensure fairness,inclusivity, and equality in decision-making.
+
+};
+
+
+
+
+\draw[highlight, thick, rounded corners] (2,19.5) rectangle (9.5,20.5);
+\node[anchor=west, text=highlight, font=\bfseries\sffamily\Large] at (3.7,20) {Transparency};
+\node[anchor=west, text=text, font=\sffamily\normalsize, text width=8cm, align=left] at (1.5,17) {
+
+AI systems often function in ways that are not easily understandable, particularly those involving deep learning, which function as 'black boxes,' making it difficult to understand how decisions are made. Ethical AI requires that these systems be transparent and their decision-making processes explainable.
+};
+
+
+
+
+
+\draw[highlight, thick, rounded corners] (11,17) rectangle (18.5,18);
+\node[anchor=west, text=highlight, font=\bfseries\sffamily\Large] at (13,17.5) {Accountability};
+
+\node[anchor=west, text=text, font=\sffamily\normalsize, text width=8cm, align=left] at (11.5,14.5) {
+
+AI systems often make important decisions, but it can be difficult to assign responsibility for their actions. The lack of clear accountability structures can lead to operational risks and legal issues. Ethical AI development requires clear accountability frameworks to determine who is responsible when an AI system causes harm or makes an error.
+};
+
+
+
+\draw[highlight, thick, rounded corners] (2,12) rectangle (9.5,13);
+\node[anchor=west, text=highlight, font=\bfseries\sffamily\Large] at (2,12.5) {Copyright and Legal Exposure
+};
+
+\node[anchor=west, text=text, font=\sffamily\normalsize, text width=8cm, align=left] at (1.5,9.5) {
+
+AI systems may inadvertently use copyrighted content without proper authorization or generate new content that resembles copyrighted works, leading to potential legal disputes. Ethical AI requires that the data used to train AI systems complies with copyright laws and is properly licensed.};
+
+
+
+\draw[highlight, thick] (9.5,26.25) -- (10.5,26.25); 
+\draw[highlight, thick] (10.5,23.5) -- (11,23.5); 
+\draw[highlight, thick] (9.5,20) -- (10.5,20); 
+\draw[highlight, thick] (10.5,17) -- (11,17); 
+\draw[highlight, thick] (9.5,13) -- (10.5,13); 
+
+
+\draw[highlight, thick] (10.5,27) -- (10.5,8.5);
+
+
+
+\end{tikzpicture}
+\end{document}
+
+
