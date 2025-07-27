@@ -1,2 +1,1 @@
-# Latex-Infographic
-Simple infographic using Latex 
+# Image resizing using seam carving algorithm
