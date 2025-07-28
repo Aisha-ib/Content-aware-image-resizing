@@ -24,6 +24,7 @@ Three different algorithms were implemented to perform seam carving:
 ## 🖼️ Sample Result using Dynamic Programming
 
 
-## 📦 Resources
-(Resources/Analysis_of_Different_Algorithmic_Design_Technique.pdf)
+## 📄 Resources
+
+- [📄 Analysis of Different Algorithmic Design Techniques (PDF)](Resources/Analysis_of_Different_Algorithmic_Design_Technique.pdf)
 
