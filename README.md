@@ -25,4 +25,5 @@ Three different algorithms were implemented to perform seam carving:
 
 
 ## 📦 Resources
+(Resources/Analysis_of_Different_Algorithmic_Design_Technique.pdf)
 
