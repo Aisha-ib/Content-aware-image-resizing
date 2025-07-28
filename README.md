@@ -22,6 +22,18 @@ Three different algorithms were implemented to perform seam carving:
 - **Recommended**: This is the best method for real-world image resizing.
 
 ## 🖼️ Sample Result using Dynamic Programming
+**Original:**  
+![Original](Resources/sample1.jpg)
+
+**Resized (DP):**  
+![Resized](Resources/output1.jpg)
+
+
+**Original:**  
+![Original](Resources/sample3.png)
+
+**Resized (DP):**  
+![Resized](Resources/output3.jpg)
 
 
 ## 📄 Resources
