@@ -1,2 +1,2 @@
-content-aware image resizing (Seam carving) 
+#Content-aware image resizing (Seam carving) 
 
